@@ -1,0 +1,22 @@
+** Profile: "SCHEMATIC1-bias"  [ e:\iti\asignaturas\1. fundamentos de sistemas digitales\pec1 030\simulacion\pec030-pspicefiles\schematic1\bias.sim ] 
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Luismi\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 32us 0 
+.OPTIONS ADVCONV
+.OPTIONS DIGMNTYMX= 1
+.OPTIONS DIGMNTYSCALE= 0.01
+.OPTIONS DIGTYMXSCALE= 1
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END
